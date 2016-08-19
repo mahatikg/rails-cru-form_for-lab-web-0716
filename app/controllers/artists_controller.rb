@@ -1,7 +1,6 @@
 class ArtistsController < ApplicationController
+#jj did some of these methods differently but this works!
 
-
-	
 	def index
 		@artists = Artist.all
 	end
